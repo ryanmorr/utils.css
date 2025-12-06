@@ -1,14 +1,14 @@
 {
-  "name": "@ryanmorr/util.css",
+  "name": "@ryanmorr/utils.css",
   "description": "A collection of unopinionated and modular CSS utility classes",
   "version": "1.0.2",
   "license": "Unlicense",
   "author": "Ryan Morr",
-  "homepage": "https://github.com/ryanmorr/util.css",
-  "bugs": "https://github.com/ryanmorr/util.css/issues",
+  "homepage": "https://github.com/ryanmorr/utils.css",
+  "bugs": "https://github.com/ryanmorr/utils.css/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanmorr/util.css.git"
+    "url": "git+https://github.com/ryanmorr/utils.css.git"
   },
   "keywords": [
     "css",
@@ -17,13 +17,13 @@
     "modular",
     "classes"
   ],
-  "main": "util.min.css",
-  "style": "util.min.css",
+  "main": "utils.min.css",
+  "style": "utils.min.css",
   "files": [
-    "util.min.css"
+    "utils.min.css"
   ],
   "scripts": {
-    "build": "cleancss -o util.min.css util.css"
+    "build": "cleancss -o utils.min.css utils.css"
   },
   "devDependencies": {
     "clean-css-cli": "^5.6.3"
