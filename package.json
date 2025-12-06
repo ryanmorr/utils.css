@@ -5,22 +5,27 @@
   "license": "Unlicense",
   "author": "Ryan Morr",
   "homepage": "https://github.com/ryanmorr/util.css",
-  "repository": "github:ryanmorr/util.css",
   "bugs": "https://github.com/ryanmorr/util.css/issues",
-  "publishConfig": {
-    "access": "public"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmorr/util.css.git"
   },
-  "main": "dist/util.min.css",
-  "style": "dist/util.min.css",
+  "keywords": [
+    "css",
+    "utilities",
+    "helpers",
+    "modular",
+    "classes"
+  ],
+  "main": "util.min.css",
+  "style": "util.min.css",
+  "files": [
+    "util.min.css"
+  ],
   "scripts": {
-    "test": "stylelint src/*.css",
-    "combine": "css-combine src/util.css > dist/util.css",
-    "build": "npm run combine && cleancss -o dist/util.min.css dist/util.css"
+    "build": "cleancss -o util.min.css util.css"
   },
   "devDependencies": {
-    "clean-css-cli": "^5.6.1",
-    "css-combine": "^1.0.0",
-    "stylelint": "^14.9.1",
-    "stylelint-config-standard": "^26.0.0"
+    "clean-css-cli": "^5.6.3"
   }
 }
