@@ -113,4 +113,78 @@
         bottom: 0;
         right: 0;
     }
+
+    /**
+     * Align an element to the top-left within a flexbox or grid container
+     */
+    .u-align-self-top-left {
+        margin-right: auto;
+        align-self: start;
+    }
+
+    /**
+     * Align an element to the top-center within a flexbox or grid container
+     */
+    .u-align-self-top-center {
+        margin-right: auto;
+        margin-left: auto;
+        align-self: start;
+    }
+
+    /**
+     * Align an element to the top-right within a flexbox or grid container
+     */
+    .u-align-self-top-right {
+        margin-left: auto;
+        align-self: start;
+    }
+
+    /**
+     * Align an element to the middle-left within a flexbox or grid container
+     */
+    .u-align-self-middle-left {
+        margin-right: auto;
+        align-self: center;
+    }
+
+    /**
+     * Align an element to the middle-center within a flexbox or grid container
+     */
+    .u-align-self-middle-center {
+        margin: auto;
+        align-self: center;
+    }
+
+    /**
+     * Align an element to the middle-right within a flexbox or grid container
+     */
+    .u-align-self-middle-right {
+        margin-left: auto;
+        align-self: center;
+    }
+
+    /**
+     * Align an element to the bottom-left within a flexbox or grid container
+     */
+    .u-align-self-bottom-left {
+        margin-right: auto;
+        align-self: end;
+    }
+
+    /**
+     * Align an element to the bottom-center within a flexbox or grid container
+     */
+    .u-align-self-bottom-center {
+        margin-right: auto;
+        margin-left: auto;
+        align-self: end;
+    }
+
+    /**
+     * Align an element to the bottom-right within a flexbox or grid container
+     */
+    .u-align-self-bottom-right {
+        margin-left: auto;
+        align-self: end;
+    }
 }
