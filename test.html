@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>utils.css tests</title>
+    <link rel="stylesheet" href="utils.min.css">
+    <style>
+        /*! suit-test v1.0.0 | MIT License | github.com/suitcss */
+
+        .Test {
+            background: #fff;
+            counter-reset: test-describe;
+        }
+
+        .Test-describe::before {
+            content: counter(test-describe);
+            counter-increment: test-describe;
+        }
+
+        .Test-describe {
+            counter-reset: test-it;
+        }
+
+        .Test-it::before {
+            content: counter(test-describe) "." counter(test-it);
+            counter-increment: test-it;
+        }
+
+        .Test-title {
+            background: #eee;
+            color: #999;
+            font-family: sans-serif;
+            font-size: 2em;
+            margin: 20px 0;
+            padding: 20px;
+        }
+
+        .Test-describe,
+        .Test-it {
+            background: #eee;
+            border-left: 5px solid #666;
+            color: #666;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 0.75em 20px;
+        }
+
+        .Test-describe {
+            font-size: 1.5em;
+            margin: 60px 0 20px;
+        }
+
+        .Test-describe::before,
+        .Test-it::before {
+            color: #999;
+            display: inline-block;
+            margin-right: 10px;
+            min-width: 30px;
+            text-transform: uppercase;
+        }
+        
+        .highlight,
+        .highlight * {
+            outline: 1px solid #ADD8E6;
+        }
+    </style>
+</head>
+<body>
+    <div class="Test">
+        <h1 class="Test-title">utils.css tests</h1>
+
+        <h2 class="Test-describe"><code>u-align-center</code></h2>
+        <h3 class="Test-it">Center an element horizontally</h3>
+        <div class="Test-run">
+            <div class="highlight">
+                <div class="u-align-center highlight">center</div>
+            </div>
+        </div>
+
+        <h2 class="Test-describe"><code>.u-align-middle</code></h2>
+        <h3 class="Test-it">Should center the element vertically</h3>
+        <div class="Test-run">
+            <div class="highlight" style="height: 100px">
+                <div class="u-align-middle">middle</div>
+            </div>
+        </div>
+
+        <h2 class="Test-describe"><code>.u-align-middle-center</code></h2>
+        <h3 class="Test-it">Should center the element horizontally and vertically</h3>
+        <div class="Test-run">
+            <div class="highlight" style="height: 100px;">
+                <div class="u-align-middle-center">middle center</div>
+            </div>
+        </div>
+    </div>
+</body>

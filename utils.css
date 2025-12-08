@@ -1,0 +1,30 @@
+@layer utils {
+
+    /**
+     * Center an element horizontally
+     */
+    .u-align-center {
+        display: table;
+        margin-inline: auto;
+    }
+
+    /**
+     * Center an element vertically
+     */
+    .u-align-middle {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /**
+     * Center an element horizontally and vertically
+     */
+    .u-align-middle-center {
+        display: table;
+        position: relative;
+        margin-inline: auto;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
