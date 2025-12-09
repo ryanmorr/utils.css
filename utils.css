@@ -205,4 +205,31 @@
         max-inline-size: 100%;
         block-size: auto;
     }
+
+    /**
+     * Prevent text from wrapping and truncate with an ellipsis
+     */
+    .u-text-truncate {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    /**
+     * Prevent text from wrapping and truncate with a hard clip
+     */
+    .u-text-clip {
+        overflow: hidden;
+        text-overflow: clip;
+        white-space: nowrap;
+    }
+
+    /**
+     * Break words when their length exceeds the width of their container
+     */
+    .u-text-break {
+        overflow-wrap: break-word;
+        word-break: break-word;
+        hyphens: auto;
+    }
 }
