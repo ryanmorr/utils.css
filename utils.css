@@ -187,4 +187,22 @@
         margin-left: auto;
         align-self: end;
     }
+
+    /**
+     * Image replacement to provide a caption to an image that is only available to web crawlers and screen readers
+     */
+    .u-hide-text {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    /**
+     * Make a media element (img, svg, canvas, etc.) responsive while maintaining aspect ratio
+     */
+    .u-responsive-media {
+        display: block;
+        max-inline-size: 100%;
+        block-size: auto;
+    }
 }
