@@ -230,4 +230,29 @@
         word-break: break-word;
         hyphens: auto;
     }
+
+    /**
+     * Hide an element visually, but maintain its layout offscreen
+     */
+    .u-offscreen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translate(-100%, -100%);
+    }
+
+    /**
+     * Hide an element visually, but remain accessible to screen readers
+     */
+    .u-visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+        border: 0;
+    }
 }
