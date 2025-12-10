@@ -126,8 +126,7 @@
      * Align an element to the top-center within a flexbox or grid container
      */
     .u-align-self-top-center {
-        margin-right: auto;
-        margin-left: auto;
+        margin-inline: auto;
         align-self: start;
     }
 
@@ -151,7 +150,7 @@
      * Align an element to the middle-center within a flexbox or grid container
      */
     .u-align-self-middle-center {
-        margin: auto;
+        margin-inline: auto;
         align-self: center;
     }
 
@@ -175,8 +174,7 @@
      * Align an element to the bottom-center within a flexbox or grid container
      */
     .u-align-self-bottom-center {
-        margin-right: auto;
-        margin-left: auto;
+        margin-inline: auto;
         align-self: end;
     }
 
