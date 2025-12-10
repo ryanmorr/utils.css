@@ -255,4 +255,26 @@
         white-space: nowrap;
         border: 0;
     }
+
+    /**
+     * Prevent all user interactions and default browser behavior
+     */
+    .u-disabled {
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+        pointer-events: none;
+        touch-action: none;
+    }
+
+    /**
+     * Create a scrollable container with enhanced behavior
+     */
+    .u-scrollable {
+        overflow: auto;
+        overscroll-behavior: contain;
+        scrollbar-gutter: stable;
+        -webkit-overflow-scrolling: touch;
+    }
 }
