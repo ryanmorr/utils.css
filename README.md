@@ -161,5 +161,5 @@ This project is dedicated to the public domain as described by the [Unlicense](h
 
 [project-url]: https://github.com/ryanmorr/utils.css
 [version-image]: https://img.shields.io/github/package-json/v/ryanmorr/utils.css?color=blue&style=flat-square
-[license-image]: https://img.shields.io/github/license/ryanmorr/utils.css?color=blue&style=flat-square
+[license-image]: https://img.shields.io/github/license/ryanmorr/util.css?color=blue&style=flat-square
 [license-url]: UNLICENSE
