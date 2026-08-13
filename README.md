@@ -111,11 +111,11 @@ The following is a collection of over two dozen utility classes for alignment, v
     </tr>
     <tr>
         <td><code>u-hide-text</code></td>
-        <td>Hide image caption visually but remain available to screen readers and search engines</td>
+        <td>Hide image caption but remain available to screen readers and search engines</td>
     </tr>
     <tr>
         <td><code>u-responsive-media</code></td>
-        <td>Make a media element (img, svg, video, etc.) responsive while maintaining aspect ratio</td>
+        <td>Make a media element responsive while maintaining aspect ratio</td>
     </tr>
     <tr>
         <td><code>u-text-truncate</code></td>
