@@ -3,6 +3,7 @@
     /**
      * Center an element horizontally within its container
      */
+
     .u-align-center {
         display: table;
         margin-inline: auto;
@@ -11,6 +12,7 @@
     /**
      * Center an element vertically within its container
      */
+
     .u-align-middle {
         position: relative;
         top: 50%;
@@ -20,6 +22,7 @@
     /**
      * Center an element horizontally and vertically within its container
      */
+
     .u-align-middle-center {
         display: table;
         position: relative;
@@ -31,6 +34,7 @@
     /**
      * Align an absolutely positioned element to the top-left
      */
+
     .u-align-abs-top-left {
         position: absolute;
         top: 0;
@@ -40,6 +44,7 @@
     /**
      * Align an absolutely positioned element to the top-center
      */
+
     .u-align-abs-top-center {
         position: absolute;
         top: 0;
@@ -50,6 +55,7 @@
     /**
      * Align an absolutely positioned element to the top-right
      */
+
     .u-align-abs-top-right {
         position: absolute;
         top: 0;
@@ -59,6 +65,7 @@
     /**
      * Align an absolutely positioned element to the middle-left
      */
+
     .u-align-abs-middle-left {
         position: absolute;
         top: 50%;
@@ -69,6 +76,7 @@
     /**
      * Align an absolutely positioned element to the middle-center
      */
+
     .u-align-abs-middle-center {
         position: absolute;
         top: 50%;
@@ -79,6 +87,7 @@
     /**
      * Align an absolutely positioned element to the middle-right
      */
+
     .u-align-abs-middle-right {
         position: absolute;
         top: 50%;
@@ -89,6 +98,7 @@
     /**
      * Align an absolutely positioned element to the bottom-left
      */
+
     .u-align-abs-bottom-left {
         position: absolute;
         bottom: 0;
@@ -98,6 +108,7 @@
     /**
      * Align an absolutely positioned element to the bottom-center
      */
+
     .u-align-abs-bottom-center {
         position: absolute;
         bottom: 0;
@@ -108,6 +119,7 @@
     /**
      * Align an absolutely positioned element to the bottom-right
      */
+
     .u-align-abs-bottom-right {
         position: absolute;
         bottom: 0;
@@ -115,72 +127,81 @@
     }
 
     /**
-     * Align an element to the top-left within a flexbox or grid container
+     * Align an element to the top-left within a flex or grid container
      */
+
     .u-align-self-top-left {
         margin-right: auto;
         align-self: start;
     }
 
     /**
-     * Align an element to the top-center within a flexbox or grid container
+     * Align an element to the top-center within a flex or grid container
      */
+
     .u-align-self-top-center {
         margin-inline: auto;
         align-self: start;
     }
 
     /**
-     * Align an element to the top-right within a flexbox or grid container
+     * Align an element to the top-right within a flex or grid container
      */
+
     .u-align-self-top-right {
         margin-left: auto;
         align-self: start;
     }
 
     /**
-     * Align an element to the middle-left within a flexbox or grid container
+     * Align an element to the middle-left within a flex or grid container
      */
+
     .u-align-self-middle-left {
         margin-right: auto;
         align-self: center;
     }
 
     /**
-     * Align an element to the middle-center within a flexbox or grid container
+     * Align an element to the middle-center within a flex or grid container
      */
+
     .u-align-self-middle-center {
         margin-inline: auto;
         align-self: center;
     }
 
     /**
-     * Align an element to the middle-right within a flexbox or grid container
+     * Align an element to the middle-right within a flex or grid container
      */
+
     .u-align-self-middle-right {
         margin-left: auto;
         align-self: center;
     }
 
     /**
-     * Align an element to the bottom-left within a flexbox or grid container
+     * Align an element to the bottom-left within a flex or grid container
      */
+
     .u-align-self-bottom-left {
         margin-right: auto;
         align-self: end;
     }
 
     /**
-     * Align an element to the bottom-center within a flexbox or grid container
+     * Align an element to the bottom-center within a flex or grid container
      */
+
     .u-align-self-bottom-center {
         margin-inline: auto;
         align-self: end;
     }
 
     /**
-     * Align an element to the bottom-right within a flexbox or grid container
+     * Align an element to the bottom-right within a flex or grid container
      */
+
     .u-align-self-bottom-right {
         margin-left: auto;
         align-self: end;
@@ -189,6 +210,7 @@
     /**
      * Image replacement to provide a caption to an image that is only available to web crawlers and screen readers
      */
+
     .u-hide-text {
         text-indent: 100%;
         white-space: nowrap;
@@ -198,6 +220,7 @@
     /**
      * Make a media element (img, svg, canvas, etc.) responsive while maintaining aspect ratio
      */
+
     .u-responsive-media {
         display: block;
         max-inline-size: 100%;
@@ -207,6 +230,7 @@
     /**
      * Prevent text from wrapping and truncate with an ellipsis
      */
+
     .u-text-truncate {
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -216,6 +240,7 @@
     /**
      * Prevent text from wrapping and truncate with a hard clip
      */
+
     .u-text-clip {
         overflow: hidden;
         text-overflow: clip;
@@ -225,6 +250,7 @@
     /**
      * Break words when their length exceeds the width of their container
      */
+
     .u-text-break {
         overflow-wrap: break-word;
         word-break: break-word;
@@ -234,6 +260,7 @@
     /**
      * Hide an element visually, but maintain its layout offscreen
      */
+
     .u-offscreen {
         position: fixed;
         top: 0;
@@ -244,6 +271,7 @@
     /**
      * Hide an element visually, but remain accessible to screen readers
      */
+
     .u-visually-hidden {
         position: absolute;
         width: 1px;
@@ -259,6 +287,7 @@
     /**
      * Prevent all user interactions and default browser behavior
      */
+
     .u-disabled {
         -webkit-tap-highlight-color: transparent;
         -webkit-touch-callout: none;
@@ -271,6 +300,7 @@
     /**
      * Create a scrollable container with enhanced behavior
      */
+
     .u-scrollable {
         overflow: auto;
         overscroll-behavior: contain;
