@@ -345,6 +345,12 @@
             </div>
         </div>
 
+        <h2 class="Test-describe"><code>u-hidden</code></h2>
+        <h3 class="Test-it">The element should not be visible and without layout</h3>
+        <div class="Test-run">
+            <div class="u-hidden" style="display: block">hidden</div>
+        </div>
+
         <h2 class="Test-describe"><code>u-offscreen</code></h2>
         <h3 class="Test-it">The element should not be visible, but maintain dimensions offscreen</h3>
         <div class="Test-run">
@@ -355,6 +361,12 @@
         <h3 class="Test-it">The element should not be visible and without layout, but available to screen readers</h3>
         <div class="Test-run">
             <div class="u-visually-hidden">visually hidden</div>
+        </div>
+
+        <h2 class="Test-describe"><code>u-visually-hidden-focusable</code></h2>
+        <h3 class="Test-it">The element should not be visible and without layout unless focused, but always available to screen readers</h3>
+        <div class="Test-run">
+            <a href="#" class="u-visually-hidden-focusable">visually hidden until focused</a>
         </div>
 
         <h2 class="Test-describe"><code>u-disabled</code></h2>

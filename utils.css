@@ -258,6 +258,14 @@
     }
 
     /**
+     * Hide an element visually and from screen readers
+     */
+
+    .u-hidden {
+        display: none !important;
+    }
+
+    /**
      * Hide an element visually, but maintain its layout offscreen
      */
 
@@ -269,10 +277,12 @@
     }
 
     /**
-     * Hide an element visually, but remain accessible to screen readers
+     * Hide an element visually, but remain accessible to screen readers,
+     * and an alternative version to become visible if focused
      */
 
-    .u-visually-hidden {
+    .u-visually-hidden,
+    .u-visually-hidden-focusable:not(:focus):not(:focus-within) {
         position: absolute;
         width: 1px;
         height: 1px;
