@@ -305,6 +305,5 @@
         overflow: auto;
         overscroll-behavior: contain;
         scrollbar-gutter: stable;
-        -webkit-overflow-scrolling: touch;
     }
 }
