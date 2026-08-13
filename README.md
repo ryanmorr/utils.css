@@ -18,7 +18,7 @@ npm install @ryanmorr/utils.css
 The following is a collection of over two dozen utility classes for alignment, visibility, text, and other purposes. This is not [Atomic CSS](https://css-tricks.com/lets-define-exactly-atomic-css/), but rather focuses on common helpers that add functionality beyond single-purpose classes scoped to one specific CSS property. All the utilities are wrapped in a CSS layer called `utils` for easy control of specificity and adding your own additional custom utilities. Theses classes are unopinionated and modular rulesets, making them easily adopted (individually or collectively) into any project.
 
 > [!NOTE]
-> For class names, the word "center" refers to horizontal alignment and the word "middle" refers to vertical alignment.
+> For class names, "center" refers to horizontal alignment and "middle" refers to vertical alignment.
 
 <table>
     <tr>
